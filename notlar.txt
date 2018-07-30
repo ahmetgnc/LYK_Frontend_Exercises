@@ -1,0 +1,13 @@
+<tr> =table row
+<th> =table head
+<td> =table data
+<ol> =ordered list
+<ul> =unordered list
+<br> =alt satıra geçme
+
+
+
+sass,scss,less,stylus
+
+
+tilla= 1020px

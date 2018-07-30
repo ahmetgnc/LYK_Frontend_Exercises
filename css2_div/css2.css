@@ -1,0 +1,44 @@
+*{
+  box-sizing: :border-box
+}
+.stilli{
+  font-size:20px;
+  font-family: "Tahoma";
+  font-style: italic;
+  font-weight: bold;
+  line-height: 36px;
+  text-align: center;
+  text-decoration:underline;
+  color: green;
+  letter-spacing: :5px;
+}
+
+.plan{
+  width: 700px;
+  height: 700px;
+  background-color: lightblue;
+  background-image: url("facebook.jpg");
+  background-repeat: no-repeat;
+  background-repeat: center center;
+
+  /*background: lightblue url("facebook.jpg") no-repeat center center;*/
+  border: 5px solid black;
+  border-radius: 20px;
+}
+
+.kutu{
+  width: 400px;
+  height: 400px;
+  background-color: red;
+
+  margin-top: 50px;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-left: auto;
+
+/*margin: 50px 30px 20px 20px;*/
+/*margin: top right bottom left;*/
+  padding:  50px;
+
+
+}

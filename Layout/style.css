@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+
+.clear {
+  clear: both;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Arial";
+}
+
+.kapsayici {
+  width: 800px;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px;
+  border: 5px solid green;
+}
+
+.kutu {
+  background-color: lightgray !important;
+  border: 1px solid green;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.ust h1 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.ust h1 a {
+  color: orange;
+  text-decoration: none;
+}
+
+.ust ul {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.ust ul li {
+  display: inline-block;
+}
+
+.ust ul li a {
+  background-color: blue;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.orta {
+  margin-top: 20px;
+}
+
+.sol {
+  width: 250px;
+  float: left;
+  background-color: red;
+}
+
+.sol ul {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.sol ul li {
+  margin-top: 10px;
+}
+
+/* .sol ul li:first-child {
+  margin-top: 0;
+} */
+
+.sol ul li:nth-child(1) {
+  margin-top: 0;
+}
+
+.sol ul li a {
+  color: red;
+  text-decoration: none;
+}
+
+.icerik {
+  width: 480px;
+  float: right;
+}
+
+.icerik p {
+  margin-top: 20px;
+  line-height: 24px;
+}
+
+.icerik p:first-of-type {
+  margin-top: 0;
+}

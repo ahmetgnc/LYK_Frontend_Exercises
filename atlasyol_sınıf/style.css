@@ -1,0 +1,110 @@
+*{
+  box-sizing: border-box;
+}
+.clear{
+  clear: both;
+}
+
+body{
+background-image: url("body.png");
+  background-repeat: repeat-x;
+}
+.kapsayici{
+  width: 940px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.ust_kapsayici{
+padding-top: 50px;
+}
+.ust_kapsayici .resim{
+  float: right;
+}
+.ust_kapsayici .contact{
+  float: right;
+
+}
+
+.ust_kapsayici .contact #phone_logo{
+  float: left;
+}
+
+.ust_kapsayici p a{
+  font-weight: bold;
+}
+
+.ust_kapsayici .logo_img{
+  float: left;
+}
+
+
+.ust_kapsayici ul {
+  margin-top: 30px;
+  margin-bottom: 20px;
+ border-top: 1px solid black;
+ border-right: 1px solid black;
+ border-bottom: 1px solid black;
+
+
+}
+
+.ust_kapsayici ul li{
+  display: inline-block;
+  padding: 10px;
+  border-left: 1px solid black;
+
+}
+.ust_kapsayici ul li a{
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+
+
+}
+
+.orta_kapsayici{
+ margin-top: 30px;
+}
+.orta_kapsayici p{
+  margin-top: 20px;
+  text-align: center;
+  line-height: 24px;
+margin-bottom: 30px;
+font-size: 16px;
+font-family: "Arial";
+font-weight: bold;
+
+}
+
+.alt_kapsayici{
+padding-top: 20px;
+}
+
+
+
+.alt_kapsayici .sol_alt {
+  width: 300px;
+  display: inline-block;
+  float: left;
+  margin-right: 20px;
+}
+
+.alt_kapsayici .orta_alt{
+  width: 300px;
+  display: inline-block;
+
+
+}
+.alt_kapsayici .sag_alt{
+  width: 300px;
+  display: inline-block;
+
+  float: right;
+}
+
+.alt_kapsayici .baslik{
+  display: inline-block;
+  font-weight: bold;
+
+}

@@ -1,0 +1,128 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Tahoma";
+  font-size: 16px;
+}
+
+
+.clear {
+  clear: both;
+}
+
+.kapsayici{
+  padding-top: 50px;
+  width: 1020px;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+.ust{
+padding-bottom: 50px;
+
+}
+.ust .menu{
+  margin-top:-20px;
+}
+.ust .menu ul li{
+  display: inline-block;
+  float: right;
+
+}
+
+.ust .menu ul li a:hover{
+  background-color: lightblue;
+  color: white;
+  border-radius: 5px;
+
+}
+
+
+.ust .menu ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 17px;
+
+}
+.orta{
+  border-top: 1px  solid lightblue;
+  padding-top: 50px;
+
+}
+.orta #vitrin{
+
+  background-color: lightblue;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  border-radius: 5px;
+
+
+}
+.orta .products{
+  display: inline-block;
+
+}
+.orta .products img{
+width:250px;
+height:250px;
+  border: 1px solid black;
+  padding: 5px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.orta #blog{
+  background-color: lightblue;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.orta .blog p{
+  font-family: "Arial";
+font-size: 15px;
+}
+
+.orta .sol_orta{
+width: 500px;
+  display: inline-block;
+  float: left;
+}
+.orta .sag_orta{
+  width: 500px;
+  display: inline-block;
+  float: right;
+}
+.orta .blog img{
+  display: inline-block;
+  float: left;
+}
+.orta .blog .blog_h{
+  display: inline-block;
+  float: left;
+}
+.orta .blog p{
+  display: inline-block;
+  float: left;
+}
+.alt{
+
+}
+
+.footer{
+  border-top: 1px solid gray;
+  padding-top: 10px;
+  margin-top: 20px;
+color: gray;
+}

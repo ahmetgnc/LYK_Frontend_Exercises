@@ -1,0 +1,123 @@
+
+
+@media (max-width: 940px) {
+.site {
+  width: 720px;
+
+}
+.orta .resim img{
+width: 100%;
+}
+
+.orta .yazilar .kutu{
+  width: 30%;
+}
+.orta .yazilar .kutu .baslik p{
+  font-size: 80%;
+ }
+}
+
+@media(max-width: 720px) {
+.site{
+  width: 480px;
+}
+.ust .menu{
+  display: none;
+}
+.ust .logo img{
+  width: 70%;
+  height: 70%;
+}
+
+.ust #hamburger{
+  display: block;
+  width: 30px;
+  height: 30px;
+  float: right;
+}
+
+.ust .sag .bayrak{
+  display: none;
+}
+.ust .sag .telefon{
+  display: none;
+}
+  .orta .resim img{
+  width: 100%;
+  }
+  .orta .yazilar .kutu{
+    width: 30%;
+  }
+  .orta .yazilar .kutu .baslik p{
+    font-size: 40%;
+   }
+}
+@media (max-width: 480px) {
+  .ust .logo img{
+    width: 50%;
+    height: 50%;
+  }
+
+  .orta .resim img{
+    width: 100%;
+  }
+  .ust ul {
+    width: 100½;
+  }
+  .ust .logo img{
+  margin-left: 20px;
+  }
+
+
+  .ust .menu{
+    display: none;
+  }
+  .ust #hamburger{
+    display: block;
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin-right: 50px;
+  }
+  .ust .sag .bayrak{
+    display: none;
+  }
+  .ust .sag .telefon{
+    display: none;
+  }
+
+.orta .slogan{
+  font-size: 10px;
+  width: 400px;
+  text-align: center;
+}
+
+.orta .resim {
+  border: none;
+  text-align: center;
+}
+p .slogan{
+width: 200px;
+}
+.slogan{
+  margin-left: 40px;
+
+}
+.orta .resim img{
+width: 80%;
+}
+.orta .yazilar .kutu{
+    width: 50%;
+    margin-bottom: 20px;
+  }
+  .baslik{
+    margin-left: 20px;
+  }
+  .aciklama{
+    margin-left: 20px;
+  }
+.orta .yazilar .kutu .baslik{
+    font-size: 85%
+  }
+
+}

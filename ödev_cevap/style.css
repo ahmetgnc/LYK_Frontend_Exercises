@@ -1,0 +1,72 @@
+*{
+  box-sizing: border-box;
+}
+.clear{
+  clear: both;
+}
+
+.ortala{
+  width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.ust-kapsayici{
+  background-color: #333333;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.ust-kapsayici h1{
+  font-size: 32px;
+}
+.ust-kapsayici h2{
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.ust-kapsayici ul{
+margin-top: 20px;
+background-color: black;
+}
+.ust-kapsayici ul li{
+  display: inline-block;
+}
+.ust-kapsayici ul li a{
+display: inline-block;
+padding: 20px;
+color: white;
+text-decoration: none;
+}
+
+.orta-kapsayici{
+margin-top: 30px;
+}
+.orta-kapsayici .resim{
+  height: 360px;
+  background-color: #333;
+}
+.orta-kapsayici .slogan{
+margin-top: 20px;
+background-color: lightgray;
+text-align: justify;
+padding: 10px;
+color: gray;
+line-height: 24px;
+}
+
+.alt-kapsayici{
+  margin-top: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #333;
+  color: white;
+}
+
+.alt-kapsayici .sol{
+float: left;
+}
+.alt-kapsayici .sag{
+float: right;
+}

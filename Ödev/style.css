@@ -1,0 +1,110 @@
+*{
+  box-sizing: border-box;
+}
+.clear{
+  clear: both;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Arial";
+}
+.kapsayici{
+
+}
+
+#başlık{
+  color: lightgray;
+  font-size: 50px;
+  margin-left: 200px;
+}
+#altbaşlık{
+  margin-top: 10px;
+  color: lightgray;
+  font-size: 20px;
+  margin-left: 200px;
+}
+
+.ust{
+  background-color: gray;
+}
+
+.ust ul li{
+
+    padding-top: 20px;
+    padding-left: 75px;
+    padding-bottom: 10px;
+    float: left;
+    background-color: black ;
+
+
+
+}
+
+.Menu ul {
+  margin-top: 20px;
+  margin-left: 200px;
+  margin-right: 20px;
+
+}
+
+#libir{
+  margin-left: 125px;
+}
+
+
+.ust a{
+  font-size: 20px;
+  color: gray;
+  text-decoration: none;
+  padding: -30px;
+
+
+  }
+
+.menu {
+
+  margin-left: 200px;
+
+
+
+}
+
+
+
+.orta {
+  width: 960px;
+  height: 360px;
+  background-color: black;
+
+  margin-top: 30px;
+  margin-left: 200px;
+}
+
+.alt{
+  width: 960px;
+  background-color: lightgray;
+  color: gray;
+
+  margin-top: 30px;
+  margin-bottom: 60px;
+  margin-left: 200px;
+  padding: 20px;
+
+}
+
+.footer{
+
+  background-color: black;
+  padding-bottom: 300px;
+
+
+
+}
+
+.footer p{
+
+  front-size: 15px;
+  color: gray;
+  margin-left: 200px;
+}

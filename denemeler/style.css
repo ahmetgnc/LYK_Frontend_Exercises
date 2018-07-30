@@ -1,0 +1,49 @@
+*{
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.clear{
+  clear: both;
+}
+
+body{
+
+}
+
+.kapsayici{
+ width: 1000px;
+ margin-left: auto;
+ margin-right: auto;
+
+}
+.menu{
+  margin-top: 30px;
+}
+.menu ul{
+
+}
+
+.menu ul li{
+  margin-bottom: 40px;
+  float: left;
+  position: relative;
+  display: inline-block;
+}
+.menu ul li a{
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 15px;
+  display: block;
+}
+
+
+.submenu {
+  width: 200px;
+  position: absolute;
+  left: 0;
+  top: 40px;
+
+  display: none;
+}

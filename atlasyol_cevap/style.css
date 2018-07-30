@@ -1,0 +1,140 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("img/body.png");
+  background-repeat: repeat-x;
+  font-family: "Tahoma";
+  font-size: 16px;
+}
+
+.clear {
+  clear: both;
+}
+
+.site {
+  width: 940px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 80px;
+}
+
+
+.ust .logo {
+  float: left;
+}
+
+.ust .sag {
+  float: right;
+}
+
+.ust .sag .telefon {
+  background-image: url("img/tel.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 20px;
+  margin-top: 15px;
+  font-size: 11px;
+}
+
+.ust .sag .telefon strong {
+  font-weight: bold;
+}
+
+.ust .sag .bayrak {
+  float: right;
+  margin-top: 20px;
+}
+
+.ust .sag .bayrak ul li {
+  float: left;
+  margin-left: 5px;
+}
+
+.ust .sag .bayrak ul li:first-child {
+  margin-left: 0;
+}
+
+.ust .menu {
+  width: 100%;
+  float: left;
+  margin-top: 25px;
+  border: 1px solid gray;
+}
+.ust #hamburger{
+  display: none;
+}
+
+.ust .menu li {
+  float: left;
+  border-left: 1px solid gray;
+}
+
+.ust .menu li:first-child {
+  border-left: 0;
+}
+
+.ust .menu li a {
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 13px;
+  transition: all 0.5s linear;
+}
+
+.ust .menu li a:hover {
+  background-color: gray;
+  color: white;
+}
+
+.orta {
+  margin-top: 20px;
+}
+
+.orta .resim {
+  border: 1px solid gray;
+}
+
+.orta .slogan {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.orta .yazilar {
+  margin-top: 20px;
+}
+
+.orta .yazilar .kutu {
+  width: 300px;
+  float: left;
+  margin-left: 20px;
+}
+
+.orta .yazilar .kutu:first-of-type {
+  margin-left: 0;
+}
+
+.orta .yazilar .kutu .baslik img {
+  float: left;
+}
+
+.orta .yazilar .kutu .baslik p {
+  float: left;
+  margin-top: 8px;
+  margin-left: 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.orta .yazilar .kutu .aciklama {
+  margin-top: 10px;
+  font-size: 11px;
+  line-height: 14px;
+}

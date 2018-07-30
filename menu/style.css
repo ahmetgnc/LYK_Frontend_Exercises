@@ -1,0 +1,58 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Tahoma";
+  font-size: 16px;
+}
+
+.clear {
+  clear: both;
+}
+
+.menu {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 0;
+}
+
+.menu li {
+  position: relative;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.menu li:first-child {
+  margin-left: 0;
+}
+
+.menu li a {
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  background-color: orange;
+  display: block;
+  font-size: 20px;
+}
+
+.submenu {
+  width: 200px;
+  position: absolute;
+  left: 0;
+  top: 40px;
+
+  display: none;
+}
+
+.menu li:hover .submenu {
+  display: block;
+}
+
+.submenu li {
+  width: 100%;
+  margin-left: 0;
+}

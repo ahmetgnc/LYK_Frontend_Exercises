@@ -1,0 +1,14 @@
+.clear {
+  clear: both;
+}
+
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+
+.img img{
+  background-image: url("news.png");
+}

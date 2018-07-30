@@ -1,0 +1,155 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: gray;
+  font-family: "Tahoma";
+  font-size: 16px;
+}
+
+.clear {
+  clear: both;
+}
+
+.site {
+  width: 940px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.ust {
+  padding-top: 20px;
+}
+
+.menu {
+  margin-top: 30px;
+}
+
+.menu li {
+  float: left;
+}
+
+.menu li a {
+  display: inline-block;
+  font-size: 13px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 15px;
+  transition: all 0.5s linear;
+}
+
+.menu li a:hover {
+  background-color: aqua;
+  color: black;
+}
+
+.orta {
+  margin-top: 30px;
+}
+
+.sol {
+  width: 280px;
+  float: left;
+  margin-top: 30px;
+  padding-top: 40px;
+  padding-right: 20px;
+  padding-left: 30px;
+  padding-bottom: 215px;
+  background-color: lightgray;
+  background-image: url("img/sidebar.png");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.sag {
+  width: 660px;
+  float: right;
+  margin-top: 30px;
+  background-color: white;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-top: 40px;
+  padding-right: 20px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+
+.sag h1 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.sag p {
+  margin-top: 20px;
+  font-size: 13px;
+  line-height: 20px;
+  color: gray;
+}
+
+.sag img {
+  margin-top: 20px;
+}
+
+.alt {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  color: white;
+  font-size: 12px;
+}
+
+.sol .arama {
+  position: relative;
+}
+
+.sol .arama input {
+  width: 100%;
+  height: 40px;
+  background-color: white;
+  border-radius: 5px;
+  border: 0;
+  padding-left: 10px;
+  padding-right: 35px;
+
+  box-shadow: inset 0 1px 1px gray;
+}
+
+.sol .arama button {
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  z-index: 9;
+}
+
+.sol .liste {
+  margin-top: 20px;
+  border-bottom: 1px solid gray;
+  padding-bottom: 20px;
+}
+
+.sol .liste h2 {
+  font-size: 20px;
+}
+
+.sol .liste ul li {
+  margin-top: 10px;
+}
+
+.sol .liste ul li a {
+  color: green;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 13px;
+  background: url("img/menu.png") no-repeat left center;
+  padding-left: 20px;
+}
